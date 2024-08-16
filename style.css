@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#4444;
+    background: linear-gradient(to right,red, #2575fc,yellow);
 
 }
 
@@ -17,12 +17,13 @@ body{
     position: relative;
     width: 60%;
     overflow: hidden;
+    border-radius: 10px;    
 }
 
 .images{
     display: flex;
     width: 100%;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .images img{
